@@ -3806,7 +3806,7 @@ textarea {
 
 .alumni-directory {
   float: left;
-  padding: 85px 0 35px;
+  padding: 0px 0 35px;
   width: 100%;
 }
 .career-opportunity ul, .alumni-directory ul{
@@ -3875,21 +3875,28 @@ textarea {
 }
 .alumni-directory .alumni-directory-content span {
   float: left;
-  line-height: 4;
+  line-height: 200%;
   font-size: 14px;
   font-family:"Montserrat";font-weight:400;;
-  text-overflow: ellipsis;
+  text-overflow: hidden;
   overflow:hidden;
-  display:inline-block;
-  white-space: nowrap;
+  word-wrap: break-word;
 }
 .alumni-directory .alumni-directory-content ul li {
   width: 100%;
   float: left;
+  word-wrap: break-word;
 }
 .alumni-directory .alumni-directory-content .user {
-  width: 20%;
+  width: 25%;
   padding: 0 15px;
+  display: block;
+  word-wrap: break-word;
+  line-height: 150%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+
 }
 .alumni-directory .alumni-directory-content .year {
   width: 15%;
@@ -3900,7 +3907,7 @@ textarea {
   padding: 0 15px;
 }
 .alumni-directory .alumni-directory-content .scholl {
-  width: 25%;
+  width: 15%;
   padding: 0 15px;
   
 }
@@ -3945,7 +3952,8 @@ textarea {
   float: left;
   margin-left: 21px;
   color: #2d2d2d;
-  font-family:"Montserrat";font-weight:400;;
+  font-family:"Montserrat";font-weight:400;
+  word-wrap: break-word;
 }
 @media (min-width: 1200px) {
   .alumni-directory .alumni-directory-content {
