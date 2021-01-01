@@ -597,7 +597,7 @@ a:hover, a:active, a:focus {
 .heading-light, .text-light {
   font-family:"Montserrat";font-weight:400;;
   line-height: 2;text-align: justify;
-  
+
 }
 
 .heading-regular, .text-regular {
@@ -606,7 +606,7 @@ a:hover, a:active, a:focus {
 
 .heading-bold, .text-bold {
   font-family:"Montserrat";font-weight:700;
-  
+
 }
 .heading-bold, .text-head-bold {
   font-family:"Montserrat";font-weight:700;
@@ -796,7 +796,7 @@ img.aligncenter {
  Header
  *************************************/
 @media (min-width: 992px) {
-  
+
     .page .container-header {
         box-shadow: 1px 7px 20px rgba(0, 0, 0, 0.15);
     }
@@ -1334,7 +1334,7 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
 .slider-hero .content-block {
   position: absolute;
   margin: auto;
-  top: 100px;
+  top: 10px;
   bottom: 0;
   display: inline-block;
   width: 100%;
@@ -1379,12 +1379,14 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
   opacity: 0.9;
 }
 .slider-hero .item {
-  float: left;
+
   position: relative;
   width: 100%;
+
 }
 .slider-hero .item img {
   width: 100%;
+
 }
 
 @media (min-width: 1200px) {
@@ -1730,7 +1732,7 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
 }
 .block-links .column-news .post-item {
   margin-bottom: 30px;
-  
+
 }
 .block-links .column-news .image-frame {
   float: left;
@@ -1769,7 +1771,7 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
   .block-links .column-news .post-desc-wrapper {
     width: 60%;
   }
-  
+
 }
 .block-links .column-career .career-content{
   overflow-y: scroll;
@@ -1913,7 +1915,7 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
 .alumni-interview {
   background-size: cover;
   margin-top: 5%;
-  
+
 
 }
 .alumni-interview .interview-wrapper {
@@ -1966,10 +1968,10 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
 }
 .alumni-interview .interview-wrapper h1 {
   color: #2d2d2d;
-  
+
 }
 @media (min-width: 992px) {
-  
+
   .alumni-interview .interview-wrapper {
     padding: 125px 0;
   }
@@ -1996,7 +1998,7 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
   .alumni-interview {
     background:none!important;
     background-color: #ffffff;
-    
+
   }
 }
 
@@ -3909,7 +3911,7 @@ textarea {
 .alumni-directory .alumni-directory-content .scholl {
   width: 20%;
   padding: 0 15px;
-  
+
 }
 .alumni-directory .alumni-directory-content .department {
   width: 5%;
@@ -3918,7 +3920,7 @@ textarea {
 .alumni-directory .alumni-directory-content .label-content {
   padding-bottom: 1px;
   border-bottom: 1px solid #d9d9d9;
-  
+
 }
 .alumni-directory .alumni-directory-content .label-content span {
   color: #2d2d2d;
@@ -3927,9 +3929,9 @@ textarea {
 }
 .alumni-directory .alumni-directory-content .box-content {
   /* padding: 3px 3px; */
-   position: relative;  
+   position: relative;
    padding-bottom: 1px;
-    border-bottom: 1px solid #d9d9d9;  
+    border-bottom: 1px solid #d9d9d9;
 }
 .alumni-directory .alumni-directory-content .box-content:before {
   content: "";
@@ -5240,7 +5242,7 @@ input.heateor_ss_social_login_optin{
   font-size: 16px;
   line-height: 48px;
   width: 48px;
-  
+
 }
 .responsive-map-container {
   position: relative;
@@ -5262,4 +5264,3 @@ input.heateor_ss_social_login_optin{
 }
 
 /* Styles for the content section */
-
