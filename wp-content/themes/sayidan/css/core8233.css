@@ -66,11 +66,11 @@ h6 {
     font-weight: 500;
     color: #484848;
     font-family: 'Montserrat';font-weight:400;
-    
+
 }
 
 p {
-    margin-bottom: 1.6em; 
+    margin-bottom: 1.6em;
     line-height: 1.6;
     font-size: 14px;
     font-family: 'Montserrat';font-weight:200;
@@ -219,7 +219,7 @@ dl {
 }
 
 dt {
- 
+
     font-weight: 700;
     color: #484848;
     font-family: 'Montserrat';font-weight:400;
@@ -247,6 +247,7 @@ table {
     table-layout: fixed; /* Prevents HTML tables from becoming too wide */
     width: 100%;
 }
+
 
 caption,
 th,
@@ -281,13 +282,13 @@ figure {
 }
 
 figure.wp-caption{
-    
-   
+
+
     max-width: 100%;
 }
 
 figcaption.wp-caption-text{
-    
+
     padding:8px 0 8px 0;
 }
 
@@ -334,7 +335,7 @@ del {
 }
 
 .page-content > .container{
-    margin-bottom:25px; 
+    margin-bottom:25px;
 }
 
 .entry-summary .more-link:after {
@@ -946,7 +947,7 @@ img.aligncenter {
     line-height: 2;
     opacity: 0.8;
 }
- 
+
 .widget_rss .rssSummary{
     line-height: 2;
 }
@@ -976,7 +977,7 @@ img.aligncenter {
 
 .widget .tagcloud a{
   line-height: auto;
-} 
+}
 
 .widget_categories select,
 .widget_archive select {
@@ -997,7 +998,7 @@ img.aligncenter {
 
 .widget_archive select{
   width: 92%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .core_popular_posts ul li{list-style: none;}
@@ -1231,7 +1232,7 @@ img.aligncenter {
     line-height: normal;
     margin: 0 0 14px 0;
     /*border-bottom: 1px solid #e5e7e8;*/
-    padding-bottom: 6px; 
+    padding-bottom: 6px;
 }
 
 .search-form-button {
@@ -1388,7 +1389,7 @@ img.aligncenter {
 
 .container-header.type1 .menu .nav > li:nth-child(5), .container-header.type1 .menu .nav > li:nth-child(6) .container-header.type1 .menu .nav > li:nth-child(7), .container-header.type1 .menu .nav > li:nth-child(8){
   margin-top: 10px;
-} 
+}
 /*************************************
    Header Type 2
 *************************************/
@@ -1668,7 +1669,7 @@ h1.page-title{  text-transform: uppercase; font-size:20pt;}
 .page-links a,
 .page-links > span {
     margin: 0 0.2857em 0.2857em 0;
-    
+
 }
 
 .page-links span.screen-reader-text{ position: relative!important; }
@@ -2669,7 +2670,7 @@ blockquote a,
   font-size: 11px!important;
 }
 .stats .text-content {
-  
+
   line-height: 1.2;
 }
 .stats .icon {
@@ -2694,7 +2695,7 @@ blockquote a,
 .blog-post-content .blog-post .area-content h3,
 .blog-post-content .blog-post .area-content h4,
 .blog-post-content .blog-post .area-content h5,
-.blog-post-content .blog-post .area-content h6{ 
+.blog-post-content .blog-post .area-content h6{
   /*text-transform: uppercase;  */
 }
 
@@ -2703,7 +2704,7 @@ blockquote a,
 .blog-post-content .comment-content h3,
 .blog-post-content .comment-content h4,
 .blog-post-content .comment-content h5,
-.blog-post-content .comment-content h6{ 
+.blog-post-content .comment-content h6{
   /*text-transform: uppercase;  */
 }
 
@@ -2712,7 +2713,7 @@ blockquote a,
 .page .page-content-body h3,
 .page .page-content-body h4,
 .page .page-content-body h5,
-.page .page-content-body h6{ 
+.page .page-content-body h6{
   /*text-transform: uppercase;  */
 }
 
@@ -3411,7 +3412,7 @@ iframe {
 
 /* Core Pagination */
 .core-pagination{
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
 }
 .core-pagination ul{
   text-align: center;
@@ -3470,7 +3471,7 @@ iframe {
 .core-pagination a,
 .core-pagination > span {
     margin: 0 0.2857em 0.2857em 0;
-    
+
 }
 .core-pagination span.screen-reader-text{ position: relative!important; }
 .core-pagination a span.screen-reader-text{ color:#fff!important;}
