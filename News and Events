@@ -1,0 +1,75 @@
+<div id="panel-2146-0-0-3" class="so-panel widget_sayidan_blocks_widget" data-index="3" data-style="{&quot;background_display&quot;:&quot;tile&quot;}">
+  <div class="so-widget-sayidan_blocks_widget so-widget-sayidan_blocks_widget-default-d75171398898">
+    <div class="block-links">
+      <div class="container">
+        <div class="row">
+
+          <div class="block-news col-md-6 col-sm-12 col-xs-12" style="width:35% ; ">
+            <div class="column-news">
+              <div class="heading-light text-capitalize">
+                <h1 class="news" > News and Events</h1>
+              </div>
+              <div class="post-wrapper" style="height:210px; ">
+                <div class="post-item clearfix">
+                  <div class="image-frame post-photo-wrapper">
+                    <!-- <a href="monica-objectives-should-be-stated-clearly/index.html"> <img width="262" height="179" src="wp-content/uploads/2016/07/galery-popup-10-3-262x179.jpg" class="img-responsive wp-post-image" alt="" /> </a> -->
+                  </div>
+                  <div class="post-desc-wrapper ">
+                    <div class="post-desc">
+                      <div class="post-title">
+                        <h6 class="heading-regular"><a href="monica-objectives-should-be-stated-clearly/index.html">MatCon 2021</a></h6>
+                      </div>
+                      <div class="post-excerpt">
+                        <!-- <p>Duis autem vel eum iriure dolor in hendrerit[...]</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item clearfix">
+                  <div class="image-frame post-photo-wrapper">
+                    <!-- <a href="jackie-lorem-ipsum-story-of-my-thoughts/index.html"> <img width="262" height="179" src="wp-content/uploads/2016/07/shutterstock_282059522-3-3-262x179.jpg" class="img-responsive wp-post-image" alt="" /> </a> -->
+                  </div>
+                  <div class="post-desc-wrapper ">
+                    <div class="post-desc">
+                      <div class="post-title">
+                        <h6 class="heading-regular"><a href="jackie-lorem-ipsum-story-of-my-thoughts/index.html">Students Seminar List</a></h6>
+                      </div>
+                      <div class="post-excerpt">
+                        <!-- <p>Duis autem vel eum iriure dolor in hendrerit[...]</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item clearfix">
+                  <div class="image-frame post-photo-wrapper">
+                    <!-- <a href="alex-maslov-i-found-the-way-how-to-setup-my-goals/index.html"> <img width="262" height="179" src="wp-content/uploads/2016/07/galery-popup-6-3-262x179.jpg" class="img-responsive wp-post-image" alt="" /> </a> -->
+                  </div>
+                  <div class="post-desc-wrapper ">
+                    <div class="post-desc">
+                      <div class="post-title">
+                        <h6 class="heading-regular"><a href="alex-maslov-i-found-the-way-how-to-setup-my-goals/index.html">CTriC 2020</a></h6>
+                      </div>
+                      <div class="post-excerpt">
+                        <!-- <p>Duis autem vel eum iriure dolor in hendrerit[...]</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="post-item clearfix">
+                  <div class="image-frame post-photo-wrapper">
+                    <!-- <a href="alex-maslov-i-found-the-way-how-to-setup-my-goals/index.html"> <img width="262" height="179" src="wp-content/uploads/2016/07/galery-popup-6-3-262x179.jpg" class="img-responsive wp-post-image" alt="" /> </a> -->
+                  </div>
+                  <div class="post-desc-wrapper ">
+                    <div class="post-desc">
+                      <div class="post-title">
+                        <h6 class="heading-regular"><a href="alex-maslov-i-found-the-way-how-to-setup-my-goals/index.html">Previous Events</a></h6>
+                      </div>
+                      <div class="post-excerpt">
+                        <!-- <p>Duis autem vel eum iriure dolor in hendrerit[...]</p> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="view-all"><a href="index.html">View All News</a></div>
+            </div>
