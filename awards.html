@@ -348,49 +348,6 @@
     .um_request_name {
       display: none !important;
     }
-
-    <style>
-
-    /* Style the tab */
-    .tab {
-      overflow: hidden;
-      border: 1px solid #ccc;
-      background-color: #f1f1f1;
-    }
-
-    /* Style the buttons inside the tab */
-    .tab button {
-      background-color: inherit;
-      float: left;
-      border: 1px solid #ccc;
-      outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      margin: 2px 10px;
-      transition: 0.3s;
-      font-size: 15px;
-    }
-
-    /* Change background color of buttons on hover */
-    .tab button:hover {
-      background-color: #f7ca18;
-      border: 1px solid #ccc;
-    }
-
-    /* Create an active/current tablink class */
-    .tab button.active {
-      background-color: #1a265c;
-      color: #fafafa;
-    }
-
-    /* Style the tab content */
-    .tabcontent {
-      display: none;
-      padding: 6px 12px;
-      border: none;
-      border-top: none;
-    }
-  </style>
   </style>
   <style type="text/css" media="all" id="siteorigin-panels-layouts-head">
     /* Layout 2146 */
@@ -441,16 +398,38 @@
       }
     }
   </style>
+  <style>
+    table {
+      font-family: Montserrat;
+      border-collapse: collapse;
+      width: 100%;
+      margin: auto;
+    }
+
+    td,
+    th {
+      border: none; solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    td{
+      font-size: 1.8rem;
+    }
+    th{
+      font-size:2.0rem;
+    }
+    tr:nth-child(even) {
+      background-color: #e5e5e5;
+    }
+  </style>
 </head>
 <a id="back2topbutton"></a>
 
 <body class="home page-template-default page page-id-2146 siteorigin-panels siteorigin-panels-before-js siteorigin-panels-home">
 
-
+  <!--Begin header wrapper  header-position-->
   <div id="page" class="site main-wrapper">
 
-
-    <!--Begin header wrapper  header-position-->
     <div class="header-wrapper">
       <!-- <img src="wp-content/themes/sayidan/images/banner.jpg" height="20%" alt=""> -->
       <header id="header" class="container-header type1">
@@ -619,94 +598,84 @@
     </div>
   </div>
   <!--End header wrapper-->
-  <!--Begin year tab-->
-  <div style="
-    margin:20px 10% 20px 10%;
-    padding: 15px 0;">
-    <h2 style="font: Arial;">Past Events in the Department of Applied Chemistry</h2>
-    <p>The department is keen on keeping its students and research scholars updated with the current trends in Chemistry in various fields across the scientific community. Click on a year to view the events that were organised in the corresponding
-      year. :</p>
 
-    <div class="tab">
-
-      <button class="tablinks" onclick="openYear(event, '2020')">2020</button>
-      <button class="tablinks" onclick="openYear(event, '2019')">2019</button>
-      <button class="tablinks" onclick="openYear(event, '2018')">2018</button>
-      <button class="tablinks" onclick="openYear(event, '2017')">2017</button>
-
-    </div>
-    <div>
-
-      <div id="2020" class="tabcontent" style="display: none; padding-top: 100px;">
-        <h3>National Science Day Celebrations</h3>
-        <p>Seminar by <b>Dr. Sivanandan Achari</b> on <i>"Environment Modelling".</i><a href="https://drive.google.com/file/d/1KAvco3KQw9PyqVeRBn2RF2z3C2cnZMlo/view?usp=sharing"> More</a></p><br>
-        <h3>Invited Lectures</h3>
-        <p>By <b>Dr. Pascale Maldivi</b> and <b>Dr. Jean-Marc Latour</b>. <a href="https://drive.google.com/file/d/1ikV6_FqRi0CS_LjJVavu_0opt25P0ehq/view?usp=sharing"> More</a></p><br>
-      </div>
-
-      <div id="2019" class="tabcontent" style="display: none; padding-top: 100px;">
-        <div>
-          <h3>MATCON-2019</h3>
-          <p>International Seminar on Materials for the Millenium.<br> <a href="https://hb20185.wixsite.com/matcon2019">Website.</a><a href="https://drive.google.com/file/d/1TEOi1OvGIUCwDpFRJPXCt5QJCKBrQiK1/view?usp=sharing "> More</a></p><br>
-          <h3>Invited Talk </h3>
-          <p>On Funding oppportunities in Science.<a href="https://drive.google.com/file/d/1RRR6RmRy4NMDLx97pZY42O_pu7lEI0YP/view?usp=sharing"> More</a></p><br>
-          <h3>Special Lecture </h3>
-          <p>By <b>Prof. Rajneesh Mishra</b>, IIT, Indore.<a href="https://drive.google.com/file/d/13KI70CwjjgU1swOWeDJaI1ZScvCBo6h7/view?usp=sharing"> More</a></p><br>
-          <h3>Special Lecture </h3>
-          <p>By <b>Prof. Heinrich Lang</b>, Institute of Inorganic Chemistry.<a href="https://drive.google.com/file/d/15uWEmgEZKRdi2zLOmBqBKZzEss-hclkv/view?usp=sharing"> More</a></p><br />
-          <h3>National Science Day Celebration</h3>
-          <p>Seminar by <b>Dr. Rahna K. Shamsudeen</b>. <a href="https://drive.google.com/file/d/1hIQZY6SsIEnWB10Q31rJoVcgLvZgtAXt/view?usp=sharing">More</a></p><br>
-        </div>
-
-      </div>
-
-      <div id="2018" class="tabcontent" style="display: none; padding-top: 100px;">
-        <h3>CTRIC-2018</h3>
-        <p>
-          National Seminar on Current Trends in Chemistry.<a href="https://drive.google.com/file/d/13CwfoanGII40tAEr0XqhO37XfxGN-iXP/view?usp=sharing"> More</a><br>
-        </p>
-        <h3>Special Lecture</h3>
-        <p>By <b>Prof. Thoshiyaki Enoki</b>, Professor Emeritus, Tokyo Institute of Technology. <a href="https://drive.google.com/file/d/1zLL4VahHG_vZS_12ZfR4b0NM8XKSVFV9/view?usp=sharing"> More</a><br>
-        </p><br>
-
-      </div>
-
-      <div id="2017" class="tabcontent" style="display: none; padding-top: 100px;">
-        <h3>CTRIC-2017</h3>
-        <p>National Seminar on Current Trends in Chemistry.</p><br>
-        <h3>Special Lecture </h3>
-        <p>By <b>Prof. Rama Dubey</b>, DRDO, Tezpur, Assam, on <i>"Water Purification, Removal of Arsenic Content"</i></p><br>
-        <h3>Special Lecture </h3>
-        <p>By <b>Prof. Malcolm Levitt</b>, University of Southampton , UK, on <i>"Nuclear Magnetic Resonance, a Window into the MIcroscopic World"</i></p><br />
-        <h3>Special Lecture </h3>
-        <p>By <b>Dr. Justin Thomas</b>, IIT Roorkee on <i>"Organic Dyes for Photovoltaics and OLEDs"</i></p><br>
-        <h3>Erudite Lecture </h3>
-        <p>By <b>Prof. Biju Vasudevan Pillai</b>, Hokkaido University, Japan.</p><br>
-      </div>
+  <!--Begin mainContent-->
+  <div id="content" class="site-content content-wrapper page-content">
 
 
 
-    </div>
-    </div>
+
+    <article id="post-2146" class="post-2146 page type-page status-publish hentry">
+
+      <div class="entry-content">
+        <div class="page-content-body">
 
 
 
-    <script>
-      function openYear(evt, yearName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(yearName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-    </script>
-  </div>
+                <div style="padding-top: 0px;" class="alumni-dashboard">
+                  <div class="container">
+
+                    <div class="area-content">
+                      <div class="row" style="text-align: center;">
+
+
+                        <h2 style="font-size:3vw; padding-left: 15px;">Awards and Honours</h2>
+                      </div>
+
+  <!--Begin Table for Data-->
+
+                      <table style="border-top-width: 0px;
+                      border-left-width: 0px;" >
+                        <tr>
+                          <th width="30%">Name<br><span style="font-size:1.5rem;">Designation</span> </th>
+
+                          <th width="70%">Award</th>
+                        </tr>
+                        <tr>
+                          <td>Alfreds Futterkiste<br><span style="font-size:1.5rem;">Designation</span> </td>
+                          <td>Maria Anders</td>
+
+                        </tr>
+                        <tr>
+                          <td>Centro comercial Moctezuma<br><span style="font-size:1.5rem;">Designation</span> </td>
+                          <td>Francisco Chang</td>
+
+                        </tr>
+                        <tr>
+                          <td>Ernst Handel<br><span style="font-size:1.5rem;">Designation</span> </td>
+                          <td>Roland Mendel</td>
+
+                        </tr>
+                        <tr>
+                          <td>Island Trading<br><span style="font-size:1.5rem;">Designation</span> </td>
+                          <td>Helen Bennett</td>
+
+                        </tr>
+                        <tr>
+                          <td>Laughing Bacchus Winecellars<br><span style="font-size:1.5rem;">Designation</span> </td>
+                          <td>Yoshi Tannamuri</td>
+
+                        </tr>
+                        <tr>
+                          <td>Magazzini Alimentari Riuniti<br><span style="font-size:1.5rem;">Designation</span> </td>
+                          <td>Giovanni Rovelli</td>
+
+
+                        </tr>
+                      </table>
+  <!--End Table for Data-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+  <!--End Main content-->
 
 
 
@@ -714,7 +683,8 @@
   <!--Begin footer wrapper-->
 
   <!--<div align="center" class="responsive-map-container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15714.678411756759!2d76.327021!3d10.044099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x83497fa6cb0e123a!2sDepartment%20of%20Applied%20Chemistry%20and%20Physics!5e0!3m2!1sen!2sin!4v1604245400497!5m2!1sen!2sin"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15714.678411756759!2d76.327021!3d10.044099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x83497fa6cb0e123a!2sDepartment%20of%20Applied%20Chemistry%20and%20Physics!5e0!3m2!1sen!2sin!4v1604245400497!5m2!1sen!2sin"></iframe>
     </div>-->
   <div class="footer-wrapper type2">
     <footer class="foooter-container">
@@ -735,7 +705,7 @@
                 </div>
 
                 <div class="contact-phone-email">
-                  <span class="contact-phone"><a href="tel:0484 257 5804">0484 257 5804</a> | <a href="tel:+37125664444">0484 286 2420</a>
+                  <span class="contact-phone"><a href="tel:0484 257 5804">0484 257 5804</a> | <a href="tel:0484 286 2420">0484 286 2420</a>
                   </span>
                   <span class="contact-email"><a href="mailito:chem@cusat.ac.in">chem@cusat.ac.in</a></span>
                 </div>
@@ -906,6 +876,9 @@
       jQuery("input[name='um_request']").val('');
     });
   </script>
+
+  <!--End Header Wrapper-->
+
 
 
 </body>
